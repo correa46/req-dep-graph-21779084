@@ -1,3 +1,5 @@
 Jayleen Correa 21779084
 
 The purpose of the main module, is to receieve an input file and the name of the report file from the user. The names will be passed to the file module that will deal with opening, reading, and opening the input file and also writing to the report file. Information read from the input file can then be passed onto the parse module which will take care of analysing the dependency information. The information can then be organized in a better format for the dependency graph module. The dependency graph function will create the dependency graph and pass each line to the send dependencies function in order to write the report for the user. In the main file, the user recieves the report file as an output.
+
+I used GitHub Copiolet to help me decide which data type was best to pass the information between functions. Otherwise, I wrote the functions and comments on my own.
